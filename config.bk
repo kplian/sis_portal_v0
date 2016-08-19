@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	fileMode = false
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = https://finguer@bitbucket.org/finguer/sis_portal.git
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
